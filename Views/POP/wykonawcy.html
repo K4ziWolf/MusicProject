@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Document</title>
+</head>
+<body>
+        <div class="sidebar">
+            <div class="top">
+                <div class="logo">
+                    <i class='bx bx-headphone' ></i>
+                    <span>RadioWęzeł</span>
+                </div>
+                <i class='bx bx-menu' id="btn"></i>
+
+            </div>
+            <div class="user">
+                <a href="/Views/settings.html"><img src="/img/user-img.jpg" alt="wolf" class="user-img"></a>
+                <div>
+                    <p class="bold">Dawid K. </p>
+                    <p>Admin</p>
+                    </div>
+            </div>
+            <ul>
+                <li>
+                    <a href="/index.html">
+                        <i class='bx bx-home-alt-2' ></i>
+                        <span class="nav-item">Dashboard</span>
+                    </a>
+                    <span class="tooltip">Dashboard</span>
+                </li>
+                <li>
+                    <a href="/Views/topmusic.html">
+                        <i class='bx bxs-playlist' ></i>
+                        <span class="nav-item">TopMusic</span>
+                    </a>
+                    <span class="tooltip">TopMusic</span>
+                </li>
+                <li>
+                    <a href="/Views/addsong.html">
+                        <i class='bx bx-add-to-queue' ></i>
+                        <span class="nav-item">AddSong</span>
+                    </a>
+                    <span class="tooltip">AddSong</span>
+                </li>
+                <li>
+                    <a href="/Views/settings.html">
+                        <i class='bx bx-cog' ></i>
+                        <span class="nav-item">Settings</span>
+                    </a>
+                    <span class="tooltip">Settings</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-log-out'></i>
+                        <span class="nav-item">Logout</span>
+                    </a>
+                    <span class="tooltip">Logout</span>
+                </li>
+            </ul>
+          
+        </div>
+
+        <div class="main-content">
+            <div class="container">
+                <div class="parent">
+                    <div class="card-wyk-1 card-main card-main-wyk">
+                        <div class="card-top">
+                          <div class="card-img">
+                              <img src="/img/wyk1.jpg" alt="cardimage">
+                          </div>
+    
+                        </div>
+                        <div class="card-wyk-title">
+                          <a href="https://www.youtube.com/channel/UCcgqSM4YEo5vVQpqwN-MaNw" target="_blank"><p>Rihanna</p></a>
+                        </div>
+                      </div>
+                      <div class="card-wyk-2 card-main card-main-wyk">
+                        <div class="card-top">
+                          <div class="card-img">
+                              <img src="/img/wyk2.jpg" alt="cardimage">
+                          </div>
+    
+                        </div>
+                        <div class="card-wyk-title">
+                          <a href="https://www.youtube.com/channel/UC9CoOnJkIBMdeijd9qYoT_g" target="_blank"><p>Ariana Grande</p></a>
+                        </div>
+                      </div>
+                      <div class="card-wyk-3 card-main card-main-wyk">
+                        <div class="card-top">
+                          <div class="card-img">
+                              <img src="/img/wyk3.jpg" alt="cardimage">
+                          </div>
+    
+                        </div>
+                        <div class="card-wyk-title">
+                          <a href="https://www.youtube.com/channel/UCZFWPqqPkFlNwIxcpsLOwew" target="_blank"><p>Harry Styles</p></a>
+                        </div>
+                      </div>
+                      <div class="card-wyk-4 card-main card-main-wyk">
+                        <div class="card-top">
+                          <div class="card-img">
+                              <img src="/img/wyk4.jpg" alt="cardimage">
+                          </div>
+    
+                        </div>
+                        <div class="card-wyk-title">
+                          <a href="https://www.youtube.com/channel/UCiGm_E4ZwYSHV3bcW1pnSeQ" target="_blank"><p>
+                            Billie Eilish</p></a>
+                        </div>
+                      </div>
+                      <div class="card-wyk-5 card-main card-main-wyk">
+                        <div class="card-top">
+                          <div class="card-img">
+                              <img src="/img/wyk5.jpg" alt="cardimage">
+                          </div>
+    
+                        </div>
+                        <div class="card-wyk-title">
+                          <a href="https://www.youtube.com/@davidguetta" target="_blank"><p>David Guetta</p></a>
+                        </div>
+                      </div>
+                </div>
+                
+        </div>
+</body>
+<script>
+     let btn = document.querySelector('#btn')
+ let sidebar = document.querySelector('.sidebar')
+
+ btn.onclick = function () {
+    sidebar.classList.toggle('active');
+ }
+
+</script>
+</html>
